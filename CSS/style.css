@@ -1,0 +1,45 @@
+.hero {
+  background: url("../images/grand-central.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh; }
+  .hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #f2f2f2, #a6a6a6);
+    opacity: .2; }
+  .hero .intro {
+    padding: 5rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  .hero h1 {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: -0.025em;
+    font-weight: 200;
+    text-align: center;
+    }
+  .hero .tech-img {
+    background: url("https://myworldofcolour.files.wordpress.com/2009/12/6final_wheel.png") no-repeat center center;
+    background-size: cover;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+  @media only screen and (min-width: 50.063em) {
+    .hero .tech-img {
+      height: 20rem;
+      width: 20rem; }
+    .hero h1 {
+      padding-top: 1rem;
+      text-align: center;
+      font-size: 3.5rem; 
+      padding-bottom: 1.5rem;
+    }
+  }

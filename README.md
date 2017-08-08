@@ -1,2 +1,2 @@
 # nyu-internetdesign
-Midterm + Final
+This website is for the sole purpose of displaying my photography in an organized and aesthetically pleasing way. It will rely on three main computer languages: HTML, CSS, and JavaScript along with design software such as Photoshop. The website will consist of many linked HTML pages. It will start off with a simple landing page which will lead to a second page with a color wheel of some sort. Based on the colour chosen, it will lead to another page displaying pictures I have taken within the colour scheme. 
