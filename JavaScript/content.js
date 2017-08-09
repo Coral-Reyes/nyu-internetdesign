@@ -1,7 +1,6 @@
 $(".grid").masonry({
   // options...
-  itemSelector: '.grid-item',
-  columnWidth: 200
+  itemSelector: '.grid-item' ;
 });
 $('#container').imagesLoaded()
   .always( function( instance ) {
