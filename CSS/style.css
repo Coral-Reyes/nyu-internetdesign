@@ -1,5 +1,5 @@
 .hero {
-  background: url("../images/grand-central.jpg") no-repeat center center;
+  background: url("../images/bg-3.png") no-repeat center center;
   background-size: cover;
   height: 100vh; }
   .hero:before {
@@ -9,8 +9,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to bottom right, #f2f2f2, #a6a6a6);
-    opacity: .2; }
+    opacity: .3; }
   .hero .intro {
     padding: 5rem;
     position: relative;
@@ -42,4 +41,10 @@
       font-size: 3.5rem; 
       padding-bottom: 1.5rem;
     }
+  }
+  body {
+    background-image: linear-gradient(to right, #ffffff, #000000);
+  }
+  .container {
+    width: auto;
   }
