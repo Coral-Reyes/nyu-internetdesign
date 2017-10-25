@@ -9,6 +9,12 @@
     messagingSenderId: "458669713089"
   };
   firebase.initializeApp(config);
+  var firstName = firebase.database().ref("fname");
+
+firstName.on("value", function(snapshot) {
+   console.log(snapshot.val());
+});
+
 $(".grid").masonry({
   // options...
   itemSelector: '.grid-item' ;

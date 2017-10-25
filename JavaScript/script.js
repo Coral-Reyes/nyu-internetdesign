@@ -1,4 +1,3 @@
-
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyAGrv7Q2mJ7DBNHIOKMdVSS7-eo6muJ_uw",
@@ -9,3 +8,9 @@
     messagingSenderId: "458669713089"
   };
   firebase.initializeApp(config);
+
+var name = firebase.database().ref("name");
+
+name.on("value", function(snapshot) {
+   console.log(snapshot.val());
+});
