@@ -1,4 +1,15 @@
+$(document).ready(function(){
 
+	  var header = $('header'),
+			      btn    = $('button.toggle-nav');
+
+	  btn.on('click', function(){
+		    header.toggleClass('active');
+	  });
+
+});
+  
+  
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyAGrv7Q2mJ7DBNHIOKMdVSS7-eo6muJ_uw",
@@ -17,7 +28,7 @@ firstName.on("value", function(snapshot) {
 
 $(".grid").masonry({
   // options...
-  itemSelector: '.grid-item' ;
+  itemSelector: '.grid-item';
 });
 $('#container').imagesLoaded()
   .always( function( instance ) {
@@ -33,3 +44,4 @@ $('#container').imagesLoaded()
     var result = image.isLoaded ? 'loaded' : 'broken';
     console.log( 'image is ' + result + ' for ' + image.img.src );
   });
+var projects="#";
