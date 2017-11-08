@@ -5,8 +5,12 @@ body{
 	  color: #c0c5ce;
     
 }
+.jumbotron {
+    opacity: 50;
+}
 .text-1 {
     text-align: center;
+    color: #2c353a;
 }
 #icon {
     display: block;
@@ -41,7 +45,7 @@ header ul.nav li a{
   	-moz-transition: all 0.25s ease;
   &:hover{
     color: #fff;
-    	background-color: #222b2f;
+    	background-color: #292c2f;
   }
 }
 
