@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/3d/70/36/3d703681b8031a0cf31c21ff06c7ef75.gif");
+    background-image: url("https://cdn2.digitalartsonline.co.uk/cmsdata/slideshow/3633163/slowinslowout.gif");
   line-height: 1.5em;
 	  background-color: #00000;  
 	  color: #c0c5ce;
@@ -44,7 +44,7 @@ header ul.nav li a{
 	  -webkit-transition: all 0.25s ease;
   	-moz-transition: all 0.25s ease;
   &:hover{
-    color: #fff;
+    color: #aab3b7;
     	background-color: #292c2f;
   }
 }
