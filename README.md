@@ -1,2 +1,0 @@
-# portolio-studio
-This website is for the sole purpose of displaying my projects in an organized and aesthetically pleasing way. It will rely on three main computer languages: HTML, CSS, and JavaScript along with design software such as Photoshop. The website will consist of many APIs found online.  
