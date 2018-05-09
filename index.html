@@ -1,52 +1,167 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Internet Design - Final</title>
+       <title></title>
         <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase-database.js"></script>
         <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
-        <script src="http://code.jquery.com/jquery-3.2.1.js"
+       <script src="http://code.jquery.com/jquery-3.2.1.js"
                 integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
                 crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <script type="text/javascript" src="../JavaScript/script.js"></script>
-        <link rel="stylesheet" href="../CSS/style.css" type="text/css" />
+       <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+       <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, contact, form, icons">
+
+	<title>Footer Distributed With Contact Form</title>
+	<link rel="stylesheet" href="css/footer-distributed-with-contact-form.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+       <link rel="stylesheet" href="./CSS/content.css" type="text/css"/>
+       <script type="text/javascript" src="./JavaScript/content.js"></script>
     </head>
     <body>
+      <header>
+        <a name="top_jumpto"></a>
+          <button class="toggle-nav">
+                <span>></span>
+          </button>
+          <ul class="nav">
+                <li class="loud"><a href="#project_jumpto">Home</a></li>
+                <li class="loud"><a href="#">About</a></li>
+                <li class="loud"><a href="#">Projects</a></li>
+                <li class="loud"><a href="#">Contact</a></li>
+          </ul>
+    </header>
         <div class="container">
-            <div class="col-xs-12 col-md-12">
-              <section class="hero">
-                <div class="row intro">
-            <div class="small-centered medium-uncentered medium-6 large-7 columns">
-                <div class="link-head">
-                <a href="https://www.instagram.com/ghost.nebula/" class="name" style="color:#f2f2f2">Coral Reyes</a>
-                </div>
-            </div>
-            <div class="small-centered medium-uncentered medium-6 large-6 columns">
-                <a href="./content.html">
-                <div class="tech-img" href="./content.html"></div>
-                </a>
-            </div>
-          </div>
-        </div>
-  </div>
-  </section>
-    </body>
-    <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="../images/img7-5.jpg" alt="...">
+          <div class="jumbotron">
+      <img id="icon" src="./images2/icon.jpg" class="img-rounded">
+      <div class="text-1">
+      <h2>Coral Reyes</h2>
+      <p class="lead">Student·Developer·Intern</p>
+      </div>
+    </div>
+  <div class="projects">
+  <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a name="project_jumpto"></a>
+    <a name="project_jumpto2"></a>
+    <a href="https://preview.c9users.io/coral_reyes/internetdesign-final/HTML/index.html" class="thumbnail">
+      <img src="./images2/nyu-1.png" alt="...">
     </a>
     <div class="project-btns">
-          <a class="col-xs-6 btn btn-default" href="https://coral-reyes.github.io/foursquare/" role="button">Preview</a>
-          <a class="col-xs-6 btn btn-default" href="https://github.com/Coral-Reyes/foursquare" role="button">Code</a>
+          <a class="col-xs-6 btn btn-default" href="https://preview.c9users.io/coral_reyes/internetdesign-final/HTML/index.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io" role="button">Preview</a>
+          <a class="col-xs-6 btn btn-default" href="https://github.com/Coral-Reyes/nyu-internetdesign" role="button">Code</a>
+        </div>
+  </div>
+  <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="./images2/springhack.png" alt="...">
+    </a>
+    <div class="project-btns">
+          <a class="col-xs-6 btn btn-default" href="https://preview.c9users.io/pfiguereo/stylingwiththestars/start.html" role="button">Preview</a>
+          <a class="col-xs-6 btn btn-default" href="https://github.com/pfiguereo/springhack2016" role="button">Code</a>
         </div>
   </div>
   <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="../images/img10.jpg" alt="...">
+      <img src="./images2/summerhack.png" alt="...">
+    </a>
+    <div class="project-btns">
+          <a class="col-xs-6 btn btn-default" href="https://preview.c9users.io/coral_reyes/summer-hackathon/index.html" role="button">Preview</a>
+          <a class="col-xs-6 btn btn-default" href="https://github.com/Coral-Reyes/summer-hackathon" role="button">Code</a>
+        </div>
+  </div>
+   
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="./images2/firsthack.png" alt="...">
+    </a>
+    <div class="project-btns">
+          <a class="col-xs-6 btn btn-default" href="https://preview.c9users.io/mgerrior1/flappy-rocketship/index.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io" role="button">Preview</a>
+          <a class="col-xs-6 btn btn-default" href="#" role="button">Code: N/A</a>
+        </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://irprdr.com/wp-content/uploads/2018/03/index3333333.jpg" alt="...">
     </a>
     <div class="project-btns">
           <a class="col-xs-6 btn btn-default" href="https://coral-reyes.github.io/foursquare/" role="button">Preview</a>
           <a class="col-xs-6 btn btn-default" href="https://github.com/Coral-Reyes/foursquare" role="button">Code</a>
         </div>
   </div>
+   <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://www.punchbowl.com/gridfs/fs/55d264ac24e4b35b5e003706-1439851692" alt="...">
+    </a>
+    <div class="project-btns">
+          <a class="col-xs-6 btn btn-default" href="#" role="button">Preview</a>
+          <a class="col-xs-6 btn btn-default" href="https://github.com/fsanchez334/studio-multiplayer-game" role="button">Code</a>
+        </div>
+  </div>
+   
+   <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://0.media.dorkly.cvcdn.com/46/12/dab458afb027de79bc05a238c576d20b.jpg" alt="...">
+    </a>
+    <div class="project-btns">
+          <a class="col-xs-6 btn btn-default" href="https://coral-reyes.github.io/villain-project/" role="button">Preview</a>
+          <a class="col-xs-6 btn btn-default" href="https://github.com/Coral-Reyes/villain-project.git" role="button">Code</a>
+        </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Coral<span> Reyes</span></h3>
+
+				<p class="footer-links">
+					<a href="#top_jumpto">Top</a>
+					·
+					<a href="#projects_jumpto2">Projects</a>
+					·
+					<a href="#">About</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/ghost__nebula"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/coral-reyes-b5516b128/"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/Coral-Reyes"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact Me! (Work in Progress)</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+
+		</footer>
+    </body>
 </html>
