@@ -11,24 +11,24 @@ $(document).ready(function(){
   
   
   // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAGrv7Q2mJ7DBNHIOKMdVSS7-eo6muJ_uw",
-    authDomain: "my-portfolio-studio.firebaseapp.com",
-    databaseURL: "https://my-portfolio-studio.firebaseio.com",
-    projectId: "my-portfolio-studio",
-    storageBucket: "my-portfolio-studio.appspot.com",
-    messagingSenderId: "458669713089"
-  };
-  firebase.initializeApp(config);
-  var firstName = firebase.database().ref("fname");
+//   var config = {
+//     apiKey: "AIzaSyAGrv7Q2mJ7DBNHIOKMdVSS7-eo6muJ_uw",
+//     authDomain: "my-portfolio-studio.firebaseapp.com",
+//     databaseURL: "https://my-portfolio-studio.firebaseio.com",
+//     projectId: "my-portfolio-studio",
+//     storageBucket: "my-portfolio-studio.appspot.com",
+//     messagingSenderId: "458669713089"
+//   };
+//   firebase.initializeApp(config);
+//   var firstName = firebase.database().ref("fname");
 
-firstName.on("value", function(snapshot) {
-   console.log(snapshot.val());
-});
+// firstName.on("value", function(snapshot) {
+//   console.log(snapshot.val());
+// });
 
 $(".grid").masonry({
   // options...
-  itemSelector: '.grid-item';
+  itemSelector: '.grid-item'
 });
 $('#container').imagesLoaded()
   .always( function( instance ) {
